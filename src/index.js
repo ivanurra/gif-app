@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { GifApp } from './GifApp';
 import './index.css';
 
+
 ReactDOM.render(
-    <App />,
+    <GifApp />,
   document.getElementById('root')
 );
 
