@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export const AddCategory = () => {
 
@@ -10,6 +10,7 @@ export const AddCategory = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        console.log('Submit done!')
     }
 
     return (
