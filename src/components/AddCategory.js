@@ -1,16 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
-export const AddCategory = () => {
+export const AddCategory = ({ setCategories }) => {
 
-    const [inputValue, setInputValue] = useState('Start')
+    const [inputValue, setInputValue] = useState('');
 
     const handleInputChange = (e) => {
-        setInputValue(e.target.value)
+        setInputValue( e.target.value );
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Submit done!')
+
+        if ( inputValue.trim().length > 2 ){
+            // trim() method removes whitespace from both sides of a string.
+            setCategories( cats => [...cats, inputValue ]);
+            setInputValue('');
+        }
     }
 
     return (
@@ -22,4 +28,8 @@ export const AddCategory = () => {
             />
         </form>
     )
+}
+
+AddCategory.propTypes = {
+    setCategories: PropTypes.func.isRequired
 }
