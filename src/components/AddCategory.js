@@ -14,7 +14,7 @@ export const AddCategory = ({ setCategories }) => {
 
         if ( inputValue.trim().length > 2 ){
             // trim() method removes whitespace from both sides of a string.
-            setCategories( cats => [...cats, inputValue ]);
+            setCategories( cats => [ inputValue, ...cats ]);
             setInputValue('');
         }
     }
