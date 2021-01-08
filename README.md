@@ -29,7 +29,9 @@ $ npm start
 
 ## Deployment 📦
 
+LIVE DEMO:
 
+https://ivanurra.github.io/gif-app/
 
 ## Built with 🛠️
 
