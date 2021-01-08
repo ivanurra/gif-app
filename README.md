@@ -2,7 +2,7 @@
 
 A simple React app for searching GIFs with the Giphy API.
 
-![Screenshot](GifApp.png)
+![Screenshot](public/GifApp.png)
 
 ## Starting 🚀
 
@@ -43,5 +43,3 @@ $ npm start
 ## License 📄
 
 © 2021 Copyright: Iván Urra.
-
-Personal and non-commercial use.
