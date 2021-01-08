@@ -1,3 +1,47 @@
-# GIF-APP
+# GIFAPP
 
-React App
+A simple React app for searching GIFs with the Giphy API.
+
+![Screenshot](GifApp.png)
+
+## Starting 🚀
+
+Instructions for getting a copy of the working project on your local machine for development and testing purposes.
+
+### Requirements 📋
+
+* Fork this repo.
+* Clone this repo.
+
+### Installation 🔧
+
+Install all dependencies described in package.json:
+
+```
+$ npm install
+```
+
+Start your React app at http://localhost:3000/
+
+```
+$ npm start
+```
+
+## Deployment 📦
+
+
+
+## Built with 🛠️
+
+* [React](https://reactjs.org/) - Open source Javascript library designed to create user interfaces on a single page.
+* [Giphy](https://developers.giphy.com/) - Giphy API for GIFs.
+
+## Author ✒️
+
+* **Iván Urra** - [ivanurra](https://github.com/ivanurra)
+
+## License 📄
+
+© 2021 Copyright: Iván Urra.
+
+Personal and non-commercial use.

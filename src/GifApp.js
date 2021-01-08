@@ -4,11 +4,12 @@ import { GifGrid } from './components/GifGrid';
 
 export const GifApp = () => {
 
-    const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(['Gif']);
 
     return (
         <div>
-            <h2>GifApp</h2>
+            <h2 id="title">GIFAPP</h2>
+            <h3 id="subtitle">a GIF search engine</h3>
             <AddCategory setCategories={ setCategories } />
             <hr />
 
@@ -22,6 +23,7 @@ export const GifApp = () => {
                     ))
                 }
             </ol>
+            <h5>Made by Iván Urra &copy; 2021</h5>
         </div>
     )
 }
