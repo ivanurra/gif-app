@@ -7,6 +7,7 @@ describe('Test <GifGridItem/>', () =>{
     test('should display the component correctly', () => {
         
         const wrapper = shallow (<GifGridItem />)
+        expect ( wrapper ).toMatchSnapshot();
     })
     
 })
