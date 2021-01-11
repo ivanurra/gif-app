@@ -1,6 +1,6 @@
 # GIFAPP
 
-A simple React app for searching GIFs with the Giphy API.
+A simple React app for searching GIFs using the Giphy API.
 
 ![Screenshot](public/GifApp.png)
 
